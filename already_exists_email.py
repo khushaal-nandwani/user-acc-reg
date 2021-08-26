@@ -103,9 +103,8 @@ class LoginPasswordPage(BoxLayout):
             self.popup.open()
 
     def sent_otp_forgot(self, instance):
-        password = 'a4173e869e71049900c68faa9b24325d-1d8af1f4-a0089450'
-        username = 'postmaster@sandboxfb88fbcd0c3e40008753504ede9f44f4' \
-                   '.mailgun.org '
+        password = 'password'
+        username = 'username'
 
         # context = ssl.create_default_context()
         otp = random.randint(1000, 9999)
